@@ -8,6 +8,6 @@ class Solution {
                 .values().stream()
                 .mapToInt(Long::intValue)
                 .reduce(1, (ans, count) -> ans * (count + 1)) 
-                - 1;
+                - 1; 
     }
 }
